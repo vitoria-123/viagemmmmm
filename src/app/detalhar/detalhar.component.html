@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+        Detalhes da viagem
+        </div>
+        <div class="card-body">
+            <form>
+                <fieldset disabled>
+                <div class="mb-3">
+                <label for="InputDestiny" class="form-label">Destino</label>
+                <input type="text" class="form-control" id="InputDestiny" aria-describedby="DestinyHelp" formControlName="destino" placeholder="São paulo">
+                </div>
+                <div class="mb-3">
+                <label for="InputType" class="form-label">Tipo</label>
+                <input type="type" class="form-control" id="InputType" formControlName="tipo" placeholder="LAZER">
+                </div>
+                <div class="mb-3">
+                    <label for="InputDateInitial" class="form-label">Data de chegada</label>
+                    <input type="text" class="form-control" id="InputDateInitial" formControlName="dataC" placeholder="18/06/2023">
+                </div>
+                <div class="mb-3">
+                    <label for="InputDateFinal" class="form-label">Data de saída</label>
+                    <input type="text" class="form-control" id="InputDateFinal" formControlName="dataF" placeholder="25/06/2023"><!--deixar 'type' como date depois-->
+                </div>
+                <div class="mb-3">
+                    <label for="InputOrcament" class="form-label">Orçamento</label>
+                    <input type="text" class="form-control" id="InputOrcament" formControlName="orcam" placeholder="R$5.000,00">
+                </div>
+                <div class="mb-3">
+                    <label for="InputQtde" class="form-label">Qtde. de pessoas</label>
+                    <input type="text" class="form-control" id="InputQtde" formControlName="qtde" placeholder="5">
+                </div>
+            </fieldset>
+                <a routerLink="/listar" class="button btn btn-primary">Voltar</a>
+            </form>
+        </div>
+    </div>
+</div>
+           

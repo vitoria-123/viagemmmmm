@@ -1,0 +1,10 @@
+.btn-secondary{
+    background-color: rgba(255, 210, 9, 0.945);
+    color: #000000;
+    border: 0px;
+}
+.btn-secondaryD{
+    background-color: rgb(138, 138, 138);
+    color: #ffffff;
+    border: 0px;
+}
